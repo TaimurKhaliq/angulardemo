@@ -27,29 +27,29 @@ export class ContentService {
       } as Card],
     menu: [
       {
-        name: 'Item 1',
-        description: '',
+        name: 'New York Style Pizza',
+        description: 'Thin crust pizza with tomatoes and light cheese',
         price: 4.99,
         currency: 'CAD',
         image: ''
       } as MenuInterface,
       {
-        name: 'Item 2',
-        description: '',
+        name: 'Steak Sandwich',
+        description: 'Whole wheat bun with an abundance of cheese',
         price: 8.99,
         currency: 'CAD',
         image: ''
       } as MenuInterface,
       {
-        name: 'Item 3',
-        description: '',
+        name: 'New York Fries',
+        description: 'French fries with crispy curls fried fresh',
         price: 3.49,
         currency: 'CAD',
         image: ''
       } as MenuInterface,
       {
-        name: 'Item 4',
-        description: '',
+        name: 'Rotisserie Chicken',
+        description: 'Tandoori BBQ chicken slow roasted to perfection',
         price: 11.99,
         currency: 'CAD',
         image: ''

@@ -3,6 +3,5 @@ export interface MenuInterface {
   description: string;
   price: number;
   currency: string;
-  image: string;
 }
 

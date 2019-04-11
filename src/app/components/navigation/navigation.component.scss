@@ -1,0 +1,20 @@
+.navigation {
+  background-color: #2e2ea4;
+}
+ul {
+  li {
+    max-width: 100px;
+    display: inline-block;
+    color: gray;
+  }
+  i.down-chevron {
+    margin-left:5px;
+  }
+  i {
+    display: inline;
+  }
+  li:hover {
+    background-color: #222281;
+    a { color: white; }
+  }
+}

@@ -1,0 +1,16 @@
+.footer {
+  background-color: gray;
+  .container > .row {
+    div:not(:last-child) {
+      margin-top: 20px;
+    }
+  }
+  .copyright-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    p {
+      text-align: center;
+    }
+  }
+}
