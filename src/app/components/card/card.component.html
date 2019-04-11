@@ -1,5 +1,9 @@
 <div class="scotia-card">
-  <!--even-->
+  <!-- Generally code duplication should be avoided. However, I did it in this case
+  because there is a structural html change in order (before and after) that is a bit
+  tricky to do in css only (using flex-direction: reverse) could have solved this but I went
+  for the simple approach for the demo.
+  -->
   <div *ngIf="index % 2 == 0" class="row row-restaurant">
     <div class="col-8">
       <h2>{{data.cardSubtitle}}</h2>
